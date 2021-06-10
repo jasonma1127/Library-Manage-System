@@ -32,7 +32,10 @@ Reference : https://clay-atlas.com/blog/2019/11/16/mysql-mysqlworkbench-tutorial
 
 2. Import Database  
 Import `Dump20210610.sql` into database  
-`Toolbar : Server >> Data Import`
+`Toolbar : Server >> Data Import`  
+  
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/mysqlDataImport.jpg)\
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/mysqlDataImportStart.jpg)
 
 3. Set Database userAccount and userPassword  
 `File : LibraryManageSystem/src/development/jdbcConnection.java`  
