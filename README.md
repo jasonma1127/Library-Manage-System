@@ -88,3 +88,26 @@ Enter `Book Name` or `Author` to find the bookItem
 
 ### 6. Borrow BookItem
 Click `Borrow` to borrow bookItem  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/borrowBookItemSuccessful.jpg)  
+
+### 7. View All BookItem  
+Click `My Book` to show all bookItem borrowed by user  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/viewMyBook.jpg)  
+
+### 8. Return BookItem
+Click `Return` to borrow bookItem  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/returnBookItem.jpg)  
+
+### 9. Add BookItem
+Click `Sign Out` and login with User Account : `admin` User Password : `1234`  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/adminLogin.jpg)  
+
+Click `Add Book` and enter `Book Name` , `Author` and `Inventory`  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/addBookItem.jpg)  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/addBookItemResult.jpg)  
