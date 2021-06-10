@@ -27,17 +27,17 @@
 #### execute `AllTests.java` to test all Unit
 
 ## Setup
-1. Download and setup MySQL  
+#### 1. Download and setup MySQL  
 Reference : https://clay-atlas.com/blog/2019/11/16/mysql-mysqlworkbench-tutorial-download-install-steps/
 
-2. Import Database  
+#### 2. Import Database  
 Import `Dump20210610.sql` into database  
 `Toolbar : Server >> Data Import`  
   
-![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/mysqlDataImport.jpg)\
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/mysqlDataImport.jpg)
 ![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/mysqlDataImportStart.jpg)
 
-3. Set Database userAccount and userPassword  
+#### 3. Set Database userAccount and userPassword  
 `File : LibraryManageSystem/src/development/jdbcConnection.java`  
 Modify `String dbUser = "root";` `String daPassword = "1234";` to your own dbUser and dbPassword  
 ```java
@@ -58,4 +58,16 @@ public static Connection dataBaseConnection() {
 }
 ```
 
-4. Execute `File : LibraryManageSystem/src/development/GUI.java` and it **WILL** work !!!
+#### 4. Execute `File : LibraryManageSystem/src/development/GUI.java` and it **WILL** work !!!
+
+## Operating Procedures  
+#### 1. Login Interface  
+Click `Register` to sign up a user account  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/loginInterface.jpg)  
+
+#### 2. Register Interface  
+Enter `User Account` , `User Password` and click `Sign Up`  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/registerInterface.jpg)  
+
