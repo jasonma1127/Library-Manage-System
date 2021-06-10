@@ -12,7 +12,7 @@ public class jdbcConnection {
 		Connection myConnection = null;
 		String url = "jdbc:mysql://localhost:3306/librarymanagesystemdb";
 		String dbUser = "root";
-		String daPassword = "ma861127";
+		String daPassword = "1234";
 		try {
 			//Get a connection to DB
 			myConnection = DriverManager.getConnection(url, dbUser, daPassword);
