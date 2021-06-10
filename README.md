@@ -71,3 +71,20 @@ Enter `User Account` , `User Password` and click `Sign Up`
 
 ![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/registerInterface.jpg)  
 
+### 3. User Login  
+Enter `User Account` , `User Password` and click `Sign In`  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/loginSuccessful.jpg)  
+
+### 4. View All BookItem  
+Click `View All` to show all bookItems  
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/viewAll.jpg)  
+
+### 5. Search BookItem
+Enter `Book Name` or `Author` to find the bookItem
+
+![image](https://github.com/jasonma1127/Library-Manage-System/blob/main/image/searchBookItem.jpg)  
+
+### 6. Borrow BookItem
+Click `Borrow` to borrow bookItem  
