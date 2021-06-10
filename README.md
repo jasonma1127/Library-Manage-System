@@ -1,7 +1,7 @@
 # Library-Manage-System
 ## Introduction
 
-Implement a simple Library Manage System with the following function :
+1. Implement a simple Library Manage System with the following function :
 
 * Create user
 * Login in user
@@ -13,18 +13,30 @@ Implement a simple Library Manage System with the following function :
 * Return bookItems
 * Search bookItems
 
-Using TDD (Test-Driven Development) to develope
+2. Using TDD (Test-Driven Development) to develope  
+`File : LibraryManageSystem/src/testing`  
+* AllTests.java
+* testAddBookItem.java
+* testBorrowBooks.java
+* testReturnBooks.java
+* testSearchBookItem.java
+* testShowBookItems.java
+* testShowBooksBorrowedByUser.java
+* testUserLogin.java
+* testUserRegister.java  
+#### execute `AllTests.java` to test all unit
 
-## Set Up
+## Setup
 1. Download and setup MySQL  
 Reference : https://clay-atlas.com/blog/2019/11/16/mysql-mysqlworkbench-tutorial-download-install-steps/
 
 2. Import Database  
-Import `Dump20210610.sql` in to database  
+Import `Dump20210610.sql` into database  
 `Toolbar : Server >> Data Import`
 
 3. Set Database userAccount and userPassword  
 `File : LibraryManageSystem/src/development/jdbcConnection.java`  
+Modify `String dbUser = "root";` `String daPassword = "1234";` to your own dbUser and dbPassword  
 ```java
 public static Connection dataBaseConnection() {
   Connection myConnection = null;
@@ -42,3 +54,5 @@ public static Connection dataBaseConnection() {
   return myConnection;
 }
 ```
+
+4. Execute `File : LibraryManageSystem/src/development/GUI.java` and it will work !!!
