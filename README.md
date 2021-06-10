@@ -24,7 +24,7 @@
 * testShowBooksBorrowedByUser.java
 * testUserLogin.java
 * testUserRegister.java  
-#### execute `AllTests.java` to test all unit
+#### execute `AllTests.java` to test all Unit
 
 ## Setup
 1. Download and setup MySQL  
